@@ -8,7 +8,7 @@ body {
 }
 
 header, footer {
-    background-color: #4CAF50;
+    background-color: #6246ea;
     color: #fff;
     padding: 20px;
 }
@@ -32,6 +32,7 @@ h2 {
 main {
     width: 100%;
     margin: auto;
+    
 }
 
 li{
@@ -43,6 +44,7 @@ li{
 .container-form{
     max-width: 50%;
     margin: auto;
+ 
 }
 
 label {
@@ -66,7 +68,7 @@ select {
 
 input[type="submit"],
 input[type="button"] {
-    background-color: #4CAF50;
+    background-color: #6246ea;
     color: white;
     border: none;
     border-radius: 4px;
@@ -98,8 +100,8 @@ th,
 td {
     padding: 10px;
     text-align: center;
-    border: 5px solid #4CAF50;
-    background-color: #4CAF50;
+    border: 5px solid #6246ea;
+    background-color: #6246ea;
 
 
 }
@@ -127,10 +129,61 @@ a{
     text-decoration: none;
 }
 .listado-servicios a {
-    color: #3e8e41;
+    color: #fffffe;
     font-size: 20px;
+    background-color: #6246ea;
+    border-radius: 15px;
+    padding: 10px 10px;
+    
 }
 
 .listado-servicios li::marker {
     content: 🐾;
+}
+.uno{
+    background-image: url(/images/pexels-oles-kanebckuu-127873.jpg);
+    padding: 100px 0;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 500px;
+}
+.dos .container-form{
+    background-color: #d1d1e9;
+    padding: 50px 30px;
+    border-radius: 50px;
+}
+.tres .container-form {
+    background-color: #d1d1e9;
+    padding: 50px 30px;
+    border-radius: 50px;
+}
+.cuatro{
+    background-image: url(/images/pexels-cottonbro-studio-3957987.jpg);
+    padding: 100px 0;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 500px;
+    opacity: 80%;
+}
+.cuatro h2{
+    color: #d1d1e9;
+    font-size: 35px;
+}
+.cinco{
+    background-image: url(/images/pexels-jonathan-borba-3279202.jpg);
+    padding: 100px 0;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 500px;
+    opacity: 80%;
+}
+.cinco h2{
+    color: #5b5bfd;
+    font-size: 35px;
 }
